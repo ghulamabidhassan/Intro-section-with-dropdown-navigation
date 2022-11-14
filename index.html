@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <title>Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main" role="main">
+        <nav class="navbar">
+          <div class="nav-left">
+            <img src="./logo.svg" class="logo" />
+            <div class="sidebar-menus desktop-menus">
+              <div class="menu-list menu-list-first">
+                <p class="ul">
+                  features
+                  <span class="arrow"
+                    ><img src="./images/icon-arrow-down.svg" alt=""
+                  /></span>
+                </p>
+                <div class="list-items list-items-feature list-items-one hide">
+                  <li>Todo list</li>
+                  <li>calendar</li>
+                  <li>reminders</li>
+                  <li>Planning</li>
+                </div>
+              </div>
+              <div class="menu-list menu-list-second">
+                <p class="ul">
+                  company
+                  <span class="arrow"
+                    ><img src="./images/icon-arrow-down.svg" alt=""
+                  /></span>
+                </p>
+                <div class="list-items hide list-items-two">
+                  <li>history</li>
+                  <li>our team</li>
+                  <li>blog</li>
+                </div>
+              </div>
+              <p class="ul">careers</p>
+              <p class="ul">about</p>
+            </div>
+          </div>
+
+          <div class="nav-right nav-right-desktop">
+            <p class="login">Login</p>
+            <button class="btn btn-desktop">Register</button>
+          </div>
+          <div class="nav-right mobile">
+            <img src="./images/icon-menu.svg" alt="" class="ham" />
+          </div>
+        </nav>
+        <section class="main-section">
+          <article class="banner-img article-one">
+            <img
+              src="./images/image-hero-mobile.png"
+              alt=""
+              class="banner mobile"
+            />
+            <img
+              src="./images/image-hero-desktop.png"
+              alt=""
+              class="banner desktop banner-desktop"
+            />
+          </article>
+          <article class="article-two">
+            <div>
+              <h2 class="heading">Make remote work</h2>
+              <p class="content">
+                Get your team in sync, no matter your location. Streamline
+                processes, create team rituals, and watch productivity soar.
+              </p>
+              <button class="learn-more">learn more</button>
+            </div>
+            <div class="footer-imgs companies">
+              <span><img src="./images/client-databiz.svg" alt="" /></span>
+              <span><img src="./images/client-audiophile.svg" alt="" /></span>
+              <span><img src="./images/client-meet.svg" alt="" /></span>
+              <span> <img src="./images/client-maker.svg" alt="" /></span>
+            </div>
+          </article>
+        </section>
+      </div>
+      <div class="ham-menu-open close-bg hide">
+        <section class="footer">
+          <div class="close">
+            <img src="./images/icon-close-menu.svg" alt="" />
+          </div>
+          <div class="sidebar-menus">
+            <div class="menu-list">
+              <p class="ul">
+                features
+                <span class="arrow"
+                  ><img src="./images/icon-arrow-down.svg" alt=""
+                /></span>
+              </p>
+              <div class="list-items list-items-feature hide">
+                <li>Todo list</li>
+                <li>calendar</li>
+                <li>reminders</li>
+                <li>Planning</li>
+              </div>
+            </div>
+            <div class="menu-list">
+              <p class="ul">
+                company
+                <span class="arrow"
+                  ><img src="./images/icon-arrow-down.svg" alt=""
+                /></span>
+              </p>
+              <div class="list-items hide">
+                <li>history</li>
+                <li>our team</li>
+                <li>blog</li>
+              </div>
+            </div>
+            <p class="ul">careers</p>
+            <p class="ul">about</p>
+          </div>
+          <div class="sidebar-login-btn">
+            <p class="sidebar-login">login</p>
+            <button class="sidebar-btn">Register</button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
